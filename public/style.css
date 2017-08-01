@@ -6,3 +6,15 @@
 .red-quote{
   color: red;
 }
+
+#cats {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  border-radius: 10%;
+}

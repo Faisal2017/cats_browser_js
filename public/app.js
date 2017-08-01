@@ -47,12 +47,12 @@ var createFavFoodLi = function(favFood) {
 } 
 
 var createImage = function(imageURL) {
-  // var li3 = document.createElement('li');
+  var li3 = document.createElement('li');
   var image = document.createElement('img');
   image.style.width = "500px";
   image.style.height = "300px";
   image.src = imageURL;
-  return image;
+  return li3.appendChild(image);
 }
 
 var appendElements = function(li1, li2, li3) {
